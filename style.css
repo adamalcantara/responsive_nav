@@ -44,6 +44,14 @@ nav {
     color: white;
 }
 
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
 .burger {
     display: none;
     cursor: pointer;
@@ -94,4 +102,16 @@ nav {
         transform: translateX(0px);
 
     }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
 }
