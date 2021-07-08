@@ -25,8 +25,11 @@ const navSlide = () => {
 
 }
 
+
+//Function which, when called, runs all pertinent functions relating to the site
 const app = () => {
     navSlide();
 }
 
+//Run the app function
 app();
